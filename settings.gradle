@@ -36,5 +36,5 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'Geckolib-MultiloaderExample'
+rootProject.name = 'MCHalo-Multiloader'
 include("Common", "Forge", "Quilt", "Fabric")

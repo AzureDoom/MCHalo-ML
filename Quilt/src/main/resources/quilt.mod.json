@@ -1,27 +1,27 @@
 {
   "schema_version": 1,
   "quilt_loader": {
-    "group": "mod.azure.rename",
-    "id": "rename",
+    "group": "mod.azure.mchalo",
+    "id": "mchalo",
     "version": "${version}",
     "metadata": {
-      "name": "Rename",
-      "description": "Description",
+      "name": "MCHalo",
+      "description": "Adds weapons from the Halo franchise to Minecraft!",
       "contributors": {
         "AzureDoom": "Author"
       },
       "contact": {
-        "sources": "https://github.com/AzureDoom/Azure-MultiLoader-Template"
+        "sources": "https://github.com/AzureDoom/MCHalo-ML"
       },
       "icon": "icon.png"
     },
     "intermediate_mappings": "net.fabricmc:intermediary",
     "entrypoints": {
       "init": [
-        "mod.azure.rename.RenameMod"
+        "mod.azure.mchalo.MCHaloMod"
       ],
       "client_init": [
-        "mod.azure.rename.client.RenameModQuiltClient"
+        "mod.azure.mchalo.client.MCHaloModQuiltClient"
       ]
     },
     "depends": [

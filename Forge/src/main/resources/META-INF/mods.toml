@@ -2,27 +2,27 @@ modLoader="javafml"
 loaderVersion="[44,)" 
 license="MIT"
 [[mods]] 
-modId="rename" 
+modId="mchalo" 
 version="${file.jarVersion}" 
-displayName="Rename" 
+displayName="MCHalo" 
 logoFile="icon.png"
 authors="AzureDoom"
 description='''
-This is a long form description of the mod. You can write whatever you want here. 
+Adds weapons from the Halo franchise to Minecraft!
 '''
-[[dependencies.rename]] 
+[[dependencies.mchalo]] 
     modId="forge" 
     mandatory=true 
     versionRange="[44,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.rename]]
+[[dependencies.mchalo]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.19.3,1.20)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.rename]]
+[[dependencies.mchalo]]
     modId="azurelib"
     mandatory=true
     versionRange="[1.0.2,)"

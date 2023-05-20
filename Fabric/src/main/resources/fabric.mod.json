@@ -1,9 +1,9 @@
 {
     "schemaVersion": 1,
-    "id": "rename",
+    "id": "mchalo",
     "version": "${version}",
     "name": "Rename",
-    "description": "This is an example description! Tell everyone what your mod is about!",
+    "description": "Adds weapons from the Halo franchise to Minecraft!",
     "authors": [
       "AzureDoom"
     ],
@@ -16,15 +16,15 @@
     "environment": "*",
     "entrypoints": {
       "main": [
-        "mod.azure.rename.RenameMod"
+        "mod.azure.mchalo.MCHaloMod"
       ],
       "client" : [
-        "mod.azure.rename.client.RenameModFabricClient"
+        "mod.azure.mchalo.client.MCHaloModFabricClient"
       ]
     },
     "mixins": [
-      "rename.mixins.json",
-      "rename.fabric.mixins.json"
+      "mchalo.mixins.json",
+      "mchalo.fabric.mixins.json"
     ],
     "depends": {
       "fabricloader": ">=0.14",
@@ -36,6 +36,6 @@
     "suggests": {
       "another-mod": "*"
     },
-    "accessWidener": "rename_common.accesswidener"
+    "accessWidener": "mchalo_common.accesswidener"
   }
   
